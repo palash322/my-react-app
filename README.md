@@ -1,32 +1,35 @@
-# React + TypeScript + Vite
+# My React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Project Description
+This is a React-based web application developed as part of my academic practical project. It demonstrates the use of React components, JSX, CSS, and modern web development tools.
 
-Currently, two official plugins are available:
+## Technologies Used
+- React.js
+- JavaScript
+- JSX
+- CSS
+- Vite
+- Git & GitHub
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Project Features
+- React component-based structure
+- Counter component
+- Responsive user interface
+- CSS styling
 
-## React Compiler
+## Student Details
+- Name: Palash Pratim Saikia
+- Enrollment ID: ADTU/0/2024-27/047
+- Semester: 5TH
+- Section: B
+- Subject: Advance application development
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## How to Run the Project
 
-## Expanding the Oxlint configuration
+Install dependencies:
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+npm install
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+Start the development server:
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+npm run dev
